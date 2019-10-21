@@ -311,3 +311,9 @@ color barColor = na
 barColor := color_condition()
 
 barcolor(color = barColor)
+
+// Alerts 
+
+alertcondition(positive_condition , title='Buy Signal', message='Buy Signal ')
+alertcondition(negative_condition , title='Sell Signal', message='Sell Signal ')
+
